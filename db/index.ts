@@ -6,8 +6,7 @@ import { Patient, Prescription, Medicine } from "@/types";
 
 const connectionString =
   process.env.DATABASE_URL ||
-  "postgresql://neondb_owner:npg_mg8uhsSXCAB4@ep-proud-mountain-b4ad7giy-pooler.c-6.us-east-2.aws.neon.tech/neondb?sslmode=require";
-
+  
 // Initialize Neon HTTP connection
 const sql = neon(connectionString);
 export const db = drizzle(sql, { schema });
