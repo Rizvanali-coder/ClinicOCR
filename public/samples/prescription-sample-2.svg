@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000" style="background:#ffffff; font-family: 'Segoe UI', Arial, sans-serif;">
+  <!-- Header / Letterhead -->
+  <rect width="800" height="150" fill="#fdf4ff" />
+  <line x1="0" y1="150" x2="800" y2="150" stroke="#d946ef" stroke-width="3" />
+  
+  <text x="40" y="55" font-size="28" font-weight="bold" fill="#a21caf">KIDS FIRST PEDIATRIC CLINIC</text>
+  <text x="40" y="85" font-size="16" font-weight="600" fill="#334155">Dr. Sarah Jenkins, MD (Pediatrics), DNB</text>
+  <text x="40" y="110" font-size="13" fill="#64748b">Reg No: PED-49210 &bull; Phone: +1 (555) 492-3810</text>
+
+  <!-- Patient Details Bar -->
+  <rect x="40" y="170" width="720" height="60" rx="8" fill="#f8fafc" stroke="#e2e8f0" />
+  <text x="60" y="205" font-size="14" font-weight="bold" fill="#1e293b">Patient: Sophia Martinez</text>
+  <text x="320" y="205" font-size="14" fill="#475569">Age: 9 yrs</text>
+  <text x="440" y="205" font-size="14" fill="#475569">Weight: 26 kg</text>
+  <text x="580" y="205" font-size="14" fill="#475569">Date: 29 Oct 2026</text>
+
+  <!-- Vitals -->
+  <text x="40" y="260" font-size="14" font-weight="600" fill="#64748b">Diagnosis: Acute Bronchitis with Wheezing &bull; Temp: 99.8 F</text>
+
+  <!-- Rx symbol -->
+  <text x="40" y="320" font-size="36" font-weight="bold" fill="#a21caf">Rx</text>
+  <line x1="40" y1="340" x2="760" y2="340" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="4" />
+
+  <!-- Medicines Body -->
+  <g transform="translate(60, 390)" font-family="'Segoe Script', 'Brush Script MT', cursive, sans-serif" font-size="20" fill="#1e1b4b">
+    <text x="0" y="0">1. Syp Levolin 2.5ml</text>
+    <text x="40" y="30" font-size="17" fill="#334155">2.5 ml - 3 times daily (TDS) for 5 days</text>
+
+    <text x="0" y="90">2. Syp Cetirizine 5ml</text>
+    <text x="40" y="120" font-size="17" fill="#334155">5 ml at night before bed (HS) x 7 days</text>
+
+    <text x="0" y="180">3. Syp Paracetamol 250mg/5ml</text>
+    <text x="40" y="210" font-size="17" fill="#334155">6 ml SOS if temperature exceeds 100 F</text>
+  </g>
+
+  <!-- Special Instructions -->
+  <rect x="40" y="700" width="720" height="90" rx="8" fill="#faf5ff" stroke="#e9d5ff" />
+  <text x="60" y="730" font-size="14" font-weight="bold" fill="#7e22ce">Pediatric Advisory:</text>
+  <text x="60" y="755" font-size="13" fill="#6b21a8">&bull; Avoid ice creams, refrigerated drinks, and dusty areas.</text>
+  <text x="60" y="775" font-size="13" fill="#6b21a8">&bull; Review if breathing difficulty or wheezing increases.</text>
+
+  <!-- Doctor Signature -->
+  <line x1="560" y1="880" x2="740" y2="880" stroke="#0f172a" stroke-width="1" />
+  <text x="580" y="870" font-family="'Brush Script MT', cursive" font-size="24" fill="#a21caf">Dr. S. Jenkins</text>
+  <text x="590" y="900" font-size="12" fill="#64748b">Consultant Pediatrician</text>
+</svg>

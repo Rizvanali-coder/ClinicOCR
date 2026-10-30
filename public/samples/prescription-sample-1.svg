@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000" style="background:#ffffff; font-family: 'Segoe UI', Arial, sans-serif;">
+  <!-- Header / Letterhead -->
+  <rect width="800" height="160" fill="#f0f7ff" />
+  <line x1="0" y1="160" x2="800" y2="160" stroke="#0284c7" stroke-width="4" />
+  
+  <text x="40" y="55" font-size="28" font-weight="bold" fill="#0369a1">CITY HEALTH CLINIC</text>
+  <text x="40" y="85" font-size="16" font-weight="600" fill="#334155">Dr. Robert Hayes, MD, Internal Medicine</text>
+  <text x="40" y="110" font-size="13" fill="#64748b">Reg No: MED-8849201 &bull; Phone: +1 (555) 019-2831</text>
+  <text x="40" y="130" font-size="13" fill="#64748b">104 Healthcare Boulevard, Suite 4B</text>
+
+  <!-- Patient Details Bar -->
+  <rect x="40" y="180" width="720" height="60" rx="8" fill="#f8fafc" stroke="#e2e8f0" />
+  <text x="60" y="215" font-size="14" font-weight="bold" fill="#1e293b">Patient: Eleanor Vance</text>
+  <text x="320" y="215" font-size="14" fill="#475569">Age: 42 yrs</text>
+  <text x="440" y="215" font-size="14" fill="#475569">Gender: Female</text>
+  <text x="580" y="215" font-size="14" fill="#475569">Date: 28 Oct 2026</text>
+
+  <!-- Vitals -->
+  <text x="40" y="280" font-size="14" font-weight="600" fill="#64748b">Vitals: BP: 120/80 mmHg | Temp: 101.4 F | Pulse: 78 bpm | SpO2: 98%</text>
+
+  <!-- Rx symbol -->
+  <text x="40" y="340" font-size="38" font-weight="bold" fill="#0284c7">Rx</text>
+  <line x1="40" y1="360" x2="760" y2="360" stroke="#cbd5e1" stroke-width="1.5" stroke-dasharray="4" />
+
+  <!-- Medicines / Handwritten-style Prescription Body -->
+  <g transform="translate(60, 410)" font-family="'Segoe Script', 'Brush Script MT', 'Comic Sans MS', cursive, sans-serif" font-size="20" fill="#1e1b4b">
+    <text x="0" y="0">1. Tab Amoxicillin 500mg</text>
+    <text x="40" y="30" font-size="17" fill="#334155">1 - 0 - 1  x  5 days (After food)</text>
+
+    <text x="0" y="90">2. Tab Paracetamol 650mg</text>
+    <text x="40" y="120" font-size="17" fill="#334155">1 tablet SOS for high fever &amp; body ache</text>
+
+    <text x="0" y="180">3. Tab Pantoprazole 40mg</text>
+    <text x="40" y="210" font-size="17" fill="#334155">1 - 0 - 0 (Empty stomach, before breakfast)</text>
+
+    <text x="0" y="270">4. Tab Cetirizine 10mg</text>
+    <text x="40" y="300" font-size="17" fill="#334155">0 - 0 - 1 (At bedtime for cough &amp; runny nose)</text>
+  </g>
+
+  <!-- Doctor Advice -->
+  <rect x="40" y="760" width="720" height="90" rx="8" fill="#eff6ff" stroke="#bfdbfe" />
+  <text x="60" y="790" font-size="14" font-weight="bold" fill="#1e40af">Doctor Advice &amp; Instructions:</text>
+  <text x="60" y="815" font-size="13" fill="#1e3a8a">&bull; Drink plenty of warm fluids and steam inhalation twice daily.</text>
+  <text x="60" y="835" font-size="13" fill="#1e3a8a">&bull; Follow up after 5 days if fever persists above 100 F.</text>
+
+  <!-- Doctor Signature -->
+  <line x1="560" y1="940" x2="740" y2="940" stroke="#0f172a" stroke-width="1" />
+  <text x="580" y="930" font-family="'Brush Script MT', cursive" font-size="26" fill="#0369a1">Dr. R. Hayes</text>
+  <text x="590" y="960" font-size="12" fill="#64748b">Authorized Signature</text>
+</svg>
